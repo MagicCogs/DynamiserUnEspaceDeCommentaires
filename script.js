@@ -22,5 +22,7 @@ form.addEventListener('submit', function(event) {
                   </div>
                 </div>
         `;
+
+        let commentList = document.querySelector('#comment-list');
     }
 })
