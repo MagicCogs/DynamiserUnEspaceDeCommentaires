@@ -11,5 +11,7 @@ form.addEventListener('submit', function(event) {
         errormessage.style.display = "block";
     } else {
         errormessage.style.display = "none";
+
+        newComment = document.createElement('div');
     }
 })
