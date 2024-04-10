@@ -13,5 +13,6 @@ form.addEventListener('submit', function(event) {
         errormessage.style.display = "none";
 
         newComment = document.createElement('div');
+        newComment.classList.add("flex", "space-x-4", "text-sm", "text-gray-500");
     }
 })
