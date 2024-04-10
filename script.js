@@ -24,5 +24,6 @@ form.addEventListener('submit', function(event) {
         `;
 
         let commentList = document.querySelector('#comment-list');
+        commentList.appendChild(newComment);
     }
 })
